@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    height: 100vh;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+.txt a{
+    text-decoration: none;
+    margin-left: 250px;
+    color: black;
+    text-transform: uppercase;
+}
+.txt a img{
+    width: 2.5%;
+    margin-top: 30px;
+}
+
+
+.bloc{
+    margin-top: 17px;
+}
+.container1 {
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  width: 100%;
+  position: absolute;
+  top: 49%;
+  transform: translateY(-50%);
+  border-bottom: 1px solid black;
+
+  /* transform:  rotate(90deg); */
+}
+.txt1 {
+  white-space: nowrap;
+  font-size: 100px;
+  font-style:italic ;
+  animation: scrollTxt 40s linear infinite;
+}
+
+
+@keyframes scrollTxt {
+  0%{
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+
+
+.container2 {
+    overflow: hidden;
+    display: flex;
+    /* Fonctionne avec toutes les tailles */
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid black;
+  
+    /* transform:  rotate(90deg); */
+}
+.txt2 {
+    white-space: nowrap;
+    font-size: 100px;
+    animation: scrollTxt2 50s linear infinite;
+}
+
+@keyframes scrollTxt2 {
+    0%{
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(0%, 0);
+    }
+}
+
+
+
+.container3 {
+    overflow: hidden;
+    display: flex;
+    /* Fonctionne avec toutes les tailles */
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid black;
+  
+    /* transform:  rotate(90deg); */
+}
+.txt3 {
+    white-space: nowrap;
+    font-size: 100px;
+    font-style:italic ;
+    animation: scrollTxt3 30s linear infinite;
+}
+.text3 img{
+    width: 15%;
+}
+
+@keyframes scrollTxt3 {
+    0%{
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(0%, 0);
+    }
+}
+
+
+
+.container4 {
+    overflow: hidden;
+    display: flex;
+    /* Fonctionne avec toutes les tailles */
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid black;
+  
+    /* transform:  rotate(90deg); */
+}
+.txt4 {
+    white-space: nowrap;
+    font-size: 100px;
+    animation: scrollTxt4 30s linear infinite;
+}
+
+@keyframes scrollTxt4 {
+    0%{
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(0%, 0);
+    }
+}
+
+
+.container5 {
+    overflow: hidden;
+    display: flex;
+    /* Fonctionne avec toutes les tailles */
+    width: 100%;
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+    border-bottom: 1px solid black;
+  
+    /* transform:  rotate(90deg); */
+}
+.txt5 {
+    white-space: nowrap;
+    font-size: 100px;
+    font-style:italic ;
+    animation: scrollTxt5 30s linear infinite;
+}
+
+@keyframes scrollTxt5 {
+    0%{
+      transform: translate(-100%, 0);
+    }
+    100% {
+      transform: translate(0%, 0);
+    }
+}
